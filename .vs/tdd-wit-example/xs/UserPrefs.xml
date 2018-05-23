@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{8BDB5DB9-269F-45A9-BE66-53F3C1E53030}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="tdd-wit-example/Character.cs">
+    <Files>
+      <File FileName="tdd-wit-example/UnitTest1.cs" Line="13" Column="6" />
+      <File FileName="tdd-wit-example/Character.cs" Line="11" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="tdd-wit-example" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.tdd-wit-example PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>
