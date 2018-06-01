@@ -22,6 +22,11 @@ namespace tdd_wit_example
             }
         }
 
+        public void Heal(int health)
+        {
+            HP += health;
+        }
+
         public bool ResolveAttack(int attack, int damage = 0)
         {
             bool attackDidHit = attack >= AC;
