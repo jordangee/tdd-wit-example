@@ -15,6 +15,11 @@ namespace tdd_wit_example
         void Hit(int damage) 
         {
             HP -= damage;
+
+            if (HP < 0)
+            {
+                HP = 0;
+            }
         }
 
         public bool ResolveAttack(int attack, int damage = 0)

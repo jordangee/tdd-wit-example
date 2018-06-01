@@ -37,7 +37,15 @@ namespace tdd_wit_example
         [Fact]
         public void WhenAttackHitsCharacterTakesDamage()
         {
-            bool attackDidHit = character.ResolveAttack(10, 10);
+            bool attackDidHit = character.ResolveAttack(10, 5);
+
+            Assert.Equal(5, character.HP);
+        }
+
+        [Fact]
+        public void WhenDamageBringsHPToNegativeHPStaysAt0()
+        {
+            character.ResolveAttack(11, 11);
 
             Assert.Equal(0, character.HP);
         }
